@@ -6,6 +6,8 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
+        120: "30rem",
+        160: "40rem",
         1080: "1080px",
         1920: "1920px",
       },
@@ -22,6 +24,11 @@ module.exports = {
       },
       fontFamily: {
         sans: "Futura",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+        "5xl": "2.5rem",
+        "6xl": "3rem",
       },
     },
   },
