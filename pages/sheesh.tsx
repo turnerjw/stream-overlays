@@ -14,7 +14,7 @@ export default function Sheesh() {
   useEffect(() => {
     client.on("message", (channel, userstate, message, self) => {
       console.log(`${userstate["display-name"]}: ${message}`);
-      if (message.match(/sheesh/i)) {
+      if (message.match(/sh(e{2,})sh/i)) {
         console.log("sheesh");
 
         play();
